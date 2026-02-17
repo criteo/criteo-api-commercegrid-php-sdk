@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**contact_list** | [**\criteo\api\commercegrid\preview\Model\CgContactListCreateV1**](CgContactListCreateV1.md) |  | [optional]
+**contact_list** | [**\criteo\api\commercegrid\v2026_01\Model\CgContactListCreateV1**](CgContactListCreateV1.md) |  | [optional]
 **data_provider_id** | **string** | Data provider associated to the segment |
 **description** | **string** | Description of the segment | [optional]
 **name** | **string** | Name of the segment |

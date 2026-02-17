@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**data** | [**\criteo\api\commercegrid\preview\Model\CommerceGridContactlistAmendment**](CommerceGridContactlistAmendment.md) |  |
+**data** | [**\criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistAmendment**](CommerceGridContactlistAmendment.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
