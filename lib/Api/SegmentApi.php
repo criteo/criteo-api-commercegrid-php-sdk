@@ -143,6 +143,8 @@ class SegmentApi
     /**
      * Operation addRemoveContactListByAudienceSegment
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
+     *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  \criteo\api\commercegrid\preview\Model\CommerceGridContactlistAmendmentRequest $commerce_grid_contactlist_amendment_request commerce_grid_contactlist_amendment_request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['addRemoveContactListByAudienceSegment'] to see the possible values for this operation
@@ -159,6 +161,8 @@ class SegmentApi
 
     /**
      * Operation addRemoveContactListByAudienceSegmentWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
      *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  \criteo\api\commercegrid\preview\Model\CommerceGridContactlistAmendmentRequest $commerce_grid_contactlist_amendment_request (required)
@@ -259,6 +263,8 @@ class SegmentApi
     /**
      * Operation addRemoveContactListByAudienceSegmentAsync
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
+     *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  \criteo\api\commercegrid\preview\Model\CommerceGridContactlistAmendmentRequest $commerce_grid_contactlist_amendment_request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['addRemoveContactListByAudienceSegment'] to see the possible values for this operation
@@ -278,6 +284,8 @@ class SegmentApi
 
     /**
      * Operation addRemoveContactListByAudienceSegmentAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
      *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  \criteo\api\commercegrid\preview\Model\CommerceGridContactlistAmendmentRequest $commerce_grid_contactlist_amendment_request (required)
@@ -445,6 +453,8 @@ class SegmentApi
     /**
      * Operation bulkCreateAudienceSegments
      *
+     * /preview/commerce-grid/audience-segments/create
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkCreateInputV1 $cg_audience_segment_bulk_create_input_v1 Segment creation parameter (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkCreateAudienceSegments'] to see the possible values for this operation
      *
@@ -460,6 +470,8 @@ class SegmentApi
 
     /**
      * Operation bulkCreateAudienceSegmentsWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/create
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkCreateInputV1 $cg_audience_segment_bulk_create_input_v1 Segment creation parameter (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkCreateAudienceSegments'] to see the possible values for this operation
@@ -559,6 +571,8 @@ class SegmentApi
     /**
      * Operation bulkCreateAudienceSegmentsAsync
      *
+     * /preview/commerce-grid/audience-segments/create
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkCreateInputV1 $cg_audience_segment_bulk_create_input_v1 Segment creation parameter (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkCreateAudienceSegments'] to see the possible values for this operation
      *
@@ -577,6 +591,8 @@ class SegmentApi
 
     /**
      * Operation bulkCreateAudienceSegmentsAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/create
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkCreateInputV1 $cg_audience_segment_bulk_create_input_v1 Segment creation parameter (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkCreateAudienceSegments'] to see the possible values for this operation
@@ -727,6 +743,8 @@ class SegmentApi
     /**
      * Operation bulkDeleteAudienceSegments
      *
+     * /preview/commerce-grid/audience-segments/delete
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkDeleteInputV1 $cg_audience_segment_bulk_delete_input_v1 Segment delete request. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkDeleteAudienceSegments'] to see the possible values for this operation
      *
@@ -742,6 +760,8 @@ class SegmentApi
 
     /**
      * Operation bulkDeleteAudienceSegmentsWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/delete
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkDeleteInputV1 $cg_audience_segment_bulk_delete_input_v1 Segment delete request. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkDeleteAudienceSegments'] to see the possible values for this operation
@@ -841,6 +861,8 @@ class SegmentApi
     /**
      * Operation bulkDeleteAudienceSegmentsAsync
      *
+     * /preview/commerce-grid/audience-segments/delete
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkDeleteInputV1 $cg_audience_segment_bulk_delete_input_v1 Segment delete request. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkDeleteAudienceSegments'] to see the possible values for this operation
      *
@@ -859,6 +881,8 @@ class SegmentApi
 
     /**
      * Operation bulkDeleteAudienceSegmentsAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/delete
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkDeleteInputV1 $cg_audience_segment_bulk_delete_input_v1 Segment delete request. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkDeleteAudienceSegments'] to see the possible values for this operation
@@ -1009,6 +1033,8 @@ class SegmentApi
     /**
      * Operation bulkUpdateAudienceSegments
      *
+     * /preview/commerce-grid/audience-segments
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkUpdateInputV1 $cg_audience_segment_bulk_update_input_v1 Segment Update request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkUpdateAudienceSegments'] to see the possible values for this operation
      *
@@ -1024,6 +1050,8 @@ class SegmentApi
 
     /**
      * Operation bulkUpdateAudienceSegmentsWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkUpdateInputV1 $cg_audience_segment_bulk_update_input_v1 Segment Update request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkUpdateAudienceSegments'] to see the possible values for this operation
@@ -1123,6 +1151,8 @@ class SegmentApi
     /**
      * Operation bulkUpdateAudienceSegmentsAsync
      *
+     * /preview/commerce-grid/audience-segments
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkUpdateInputV1 $cg_audience_segment_bulk_update_input_v1 Segment Update request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkUpdateAudienceSegments'] to see the possible values for this operation
      *
@@ -1141,6 +1171,8 @@ class SegmentApi
 
     /**
      * Operation bulkUpdateAudienceSegmentsAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentBulkUpdateInputV1 $cg_audience_segment_bulk_update_input_v1 Segment Update request (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['bulkUpdateAudienceSegments'] to see the possible values for this operation
@@ -1291,6 +1323,8 @@ class SegmentApi
     /**
      * Operation clearContactListByAudienceSegment
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
+     *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['clearContactListByAudienceSegment'] to see the possible values for this operation
      *
@@ -1305,6 +1339,8 @@ class SegmentApi
 
     /**
      * Operation clearContactListByAudienceSegmentWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
      *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['clearContactListByAudienceSegment'] to see the possible values for this operation
@@ -1364,6 +1400,8 @@ class SegmentApi
     /**
      * Operation clearContactListByAudienceSegmentAsync
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
+     *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['clearContactListByAudienceSegment'] to see the possible values for this operation
      *
@@ -1382,6 +1420,8 @@ class SegmentApi
 
     /**
      * Operation clearContactListByAudienceSegmentAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
      *
      * @param  string $audience_segment_id The ID of the audience segment of type contact list to amend (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['clearContactListByAudienceSegment'] to see the possible values for this operation
@@ -1520,6 +1560,8 @@ class SegmentApi
     /**
      * Operation getAudienceSegmentContactListStatistics
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
+     *
      * @param  string $audience_segment_id The segment ID. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['getAudienceSegmentContactListStatistics'] to see the possible values for this operation
      *
@@ -1535,6 +1577,8 @@ class SegmentApi
 
     /**
      * Operation getAudienceSegmentContactListStatisticsWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
      *
      * @param  string $audience_segment_id The segment ID. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['getAudienceSegmentContactListStatistics'] to see the possible values for this operation
@@ -1634,6 +1678,8 @@ class SegmentApi
     /**
      * Operation getAudienceSegmentContactListStatisticsAsync
      *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
+     *
      * @param  string $audience_segment_id The segment ID. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['getAudienceSegmentContactListStatistics'] to see the possible values for this operation
      *
@@ -1652,6 +1698,8 @@ class SegmentApi
 
     /**
      * Operation getAudienceSegmentContactListStatisticsAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
      *
      * @param  string $audience_segment_id The segment ID. (required)
      * @param  string $contentType The value for the Content-Type header. Check self::contentTypes['getAudienceSegmentContactListStatistics'] to see the possible values for this operation
@@ -1803,6 +1851,8 @@ class SegmentApi
     /**
      * Operation searchAudienceSegments
      *
+     * /preview/commerce-grid/audience-segments/search
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentSearchInputV1 $cg_audience_segment_search_input_v1  (required)
      * @param  int $limit The number of elements to be returned. The default is 50 and the maximum is 100. (optional, default to 50)
      * @param  int $offset The (zero-based) offset into the collection. The default is 0. (optional, default to 0)
@@ -1820,6 +1870,8 @@ class SegmentApi
 
     /**
      * Operation searchAudienceSegmentsWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/search
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentSearchInputV1 $cg_audience_segment_search_input_v1  (required)
      * @param  int $limit The number of elements to be returned. The default is 50 and the maximum is 100. (optional, default to 50)
@@ -1921,6 +1973,8 @@ class SegmentApi
     /**
      * Operation searchAudienceSegmentsAsync
      *
+     * /preview/commerce-grid/audience-segments/search
+     *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentSearchInputV1 $cg_audience_segment_search_input_v1  (required)
      * @param  int $limit The number of elements to be returned. The default is 50 and the maximum is 100. (optional, default to 50)
      * @param  int $offset The (zero-based) offset into the collection. The default is 0. (optional, default to 0)
@@ -1941,6 +1995,8 @@ class SegmentApi
 
     /**
      * Operation searchAudienceSegmentsAsyncWithHttpInfo
+     *
+     * /preview/commerce-grid/audience-segments/search
      *
      * @param  \criteo\api\commercegrid\preview\Model\CgAudienceSegmentSearchInputV1 $cg_audience_segment_search_input_v1  (required)
      * @param  int $limit The number of elements to be returned. The default is 50 and the maximum is 100. (optional, default to 50)
