@@ -1,25 +1,25 @@
-# criteo\api\commercegrid\v2026_01\SegmentApi
+# criteo\api\commercegrid\v2026_07\SegmentApi
 
 All URIs are relative to https://api.criteo.com, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**addRemoveContactListByAudienceSegment()**](SegmentApi.md#addRemoveContactListByAudienceSegment) | **POST** /2026-01/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove |  |
-| [**bulkCreateAudienceSegments()**](SegmentApi.md#bulkCreateAudienceSegments) | **POST** /2026-01/commerce-grid/audience-segments/create |  |
-| [**bulkDeleteAudienceSegments()**](SegmentApi.md#bulkDeleteAudienceSegments) | **POST** /2026-01/commerce-grid/audience-segments/delete |  |
-| [**bulkUpdateAudienceSegments()**](SegmentApi.md#bulkUpdateAudienceSegments) | **PATCH** /2026-01/commerce-grid/audience-segments |  |
-| [**clearContactListByAudienceSegment()**](SegmentApi.md#clearContactListByAudienceSegment) | **POST** /2026-01/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear |  |
-| [**getAudienceSegmentContactListStatistics()**](SegmentApi.md#getAudienceSegmentContactListStatistics) | **GET** /2026-01/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics |  |
-| [**searchAudienceSegments()**](SegmentApi.md#searchAudienceSegments) | **POST** /2026-01/commerce-grid/audience-segments/search |  |
+| [**addRemoveContactListByAudienceSegment()**](SegmentApi.md#addRemoveContactListByAudienceSegment) | **POST** /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove | /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove |
+| [**bulkCreateAudienceSegments()**](SegmentApi.md#bulkCreateAudienceSegments) | **POST** /2026-07/commerce-grid/audience-segments/create | /2026-07/commerce-grid/audience-segments/create |
+| [**bulkDeleteAudienceSegments()**](SegmentApi.md#bulkDeleteAudienceSegments) | **POST** /2026-07/commerce-grid/audience-segments/delete | /2026-07/commerce-grid/audience-segments/delete |
+| [**bulkUpdateAudienceSegments()**](SegmentApi.md#bulkUpdateAudienceSegments) | **PATCH** /2026-07/commerce-grid/audience-segments | /2026-07/commerce-grid/audience-segments |
+| [**clearContactListByAudienceSegment()**](SegmentApi.md#clearContactListByAudienceSegment) | **POST** /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear | /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear |
+| [**getAudienceSegmentContactListStatistics()**](SegmentApi.md#getAudienceSegmentContactListStatistics) | **GET** /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics | /2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics |
+| [**searchAudienceSegments()**](SegmentApi.md#searchAudienceSegments) | **POST** /2026-07/commerce-grid/audience-segments/search | /2026-07/commerce-grid/audience-segments/search |
 
 
 ## `addRemoveContactListByAudienceSegment()`
 
 ```php
-addRemoveContactListByAudienceSegment($audience_segment_id, $commerce_grid_contactlist_amendment_request): \criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistOperation
+addRemoveContactListByAudienceSegment($audience_segment_id, $commerce_grid_contactlist_amendment_request): \criteo\api\commercegrid\v2026_07\Model\CommerceGridContactlistOperation
 ```
 
-
+/2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
 
 Add/remove identifiers to or from a Commerce Grid audience segment of type Contact List.
 
@@ -31,20 +31,20 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $audience_segment_id = 'audience_segment_id_example'; // string | The ID of the audience segment of type contact list to amend
-$commerce_grid_contactlist_amendment_request = new \criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistAmendmentRequest(); // \criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistAmendmentRequest
+$commerce_grid_contactlist_amendment_request = new \criteo\api\commercegrid\v2026_07\Model\CommerceGridContactlistAmendmentRequest(); // \criteo\api\commercegrid\v2026_07\Model\CommerceGridContactlistAmendmentRequest
 
 try {
     $result = $apiInstance->addRemoveContactListByAudienceSegment($audience_segment_id, $commerce_grid_contactlist_amendment_request);
@@ -59,11 +59,11 @@ try {
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
 | **audience_segment_id** | **string**| The ID of the audience segment of type contact list to amend | |
-| **commerce_grid_contactlist_amendment_request** | [**\criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistAmendmentRequest**](../Model/CommerceGridContactlistAmendmentRequest.md)|  | |
+| **commerce_grid_contactlist_amendment_request** | [**\criteo\api\commercegrid\v2026_07\Model\CommerceGridContactlistAmendmentRequest**](../Model/CommerceGridContactlistAmendmentRequest.md)|  | |
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CommerceGridContactlistOperation**](../Model/CommerceGridContactlistOperation.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CommerceGridContactlistOperation**](../Model/CommerceGridContactlistOperation.md)
 
 ### Authorization
 
@@ -81,10 +81,10 @@ try {
 ## `bulkCreateAudienceSegments()`
 
 ```php
-bulkCreateAudienceSegments($cg_audience_segment_bulk_create_input_v1): \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1ListResponse
+bulkCreateAudienceSegments($cg_audience_segment_bulk_create_input_v1): \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1ListResponse
 ```
 
-
+/2026-07/commerce-grid/audience-segments/create
 
 Creates all segments with a valid configuration, and returns the full segments. For those that cannot be created, one or multiple errors are returned.
 
@@ -96,19 +96,19 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$cg_audience_segment_bulk_create_input_v1 = new \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkCreateInputV1(); // \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkCreateInputV1 | Segment creation parameter
+$cg_audience_segment_bulk_create_input_v1 = new \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkCreateInputV1(); // \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkCreateInputV1 | Segment creation parameter
 
 try {
     $result = $apiInstance->bulkCreateAudienceSegments($cg_audience_segment_bulk_create_input_v1);
@@ -122,11 +122,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **cg_audience_segment_bulk_create_input_v1** | [**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkCreateInputV1**](../Model/CgAudienceSegmentBulkCreateInputV1.md)| Segment creation parameter | |
+| **cg_audience_segment_bulk_create_input_v1** | [**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkCreateInputV1**](../Model/CgAudienceSegmentBulkCreateInputV1.md)| Segment creation parameter | |
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1ListResponse**](../Model/CgAudienceSegmentEntityV1ListResponse.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1ListResponse**](../Model/CgAudienceSegmentEntityV1ListResponse.md)
 
 ### Authorization
 
@@ -144,10 +144,10 @@ try {
 ## `bulkDeleteAudienceSegments()`
 
 ```php
-bulkDeleteAudienceSegments($cg_audience_segment_bulk_delete_input_v1): \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentIdEntityV1ListResponse
+bulkDeleteAudienceSegments($cg_audience_segment_bulk_delete_input_v1): \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentIdEntityV1ListResponse
 ```
 
-
+/2026-07/commerce-grid/audience-segments/delete
 
 Delete the segments associated to the given IDs.
 
@@ -159,19 +159,19 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$cg_audience_segment_bulk_delete_input_v1 = new \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkDeleteInputV1(); // \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkDeleteInputV1 | Segment delete request.
+$cg_audience_segment_bulk_delete_input_v1 = new \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkDeleteInputV1(); // \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkDeleteInputV1 | Segment delete request.
 
 try {
     $result = $apiInstance->bulkDeleteAudienceSegments($cg_audience_segment_bulk_delete_input_v1);
@@ -185,11 +185,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **cg_audience_segment_bulk_delete_input_v1** | [**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkDeleteInputV1**](../Model/CgAudienceSegmentBulkDeleteInputV1.md)| Segment delete request. | |
+| **cg_audience_segment_bulk_delete_input_v1** | [**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkDeleteInputV1**](../Model/CgAudienceSegmentBulkDeleteInputV1.md)| Segment delete request. | |
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentIdEntityV1ListResponse**](../Model/CgAudienceSegmentIdEntityV1ListResponse.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentIdEntityV1ListResponse**](../Model/CgAudienceSegmentIdEntityV1ListResponse.md)
 
 ### Authorization
 
@@ -207,10 +207,10 @@ try {
 ## `bulkUpdateAudienceSegments()`
 
 ```php
-bulkUpdateAudienceSegments($cg_audience_segment_bulk_update_input_v1): \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1ListResponse
+bulkUpdateAudienceSegments($cg_audience_segment_bulk_update_input_v1): \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1ListResponse
 ```
 
-
+/2026-07/commerce-grid/audience-segments
 
 Updates the properties of all segments with a valid configuration, and returns the full segments. For those that cannot be updated, one or multiple errors are returned.
 
@@ -222,19 +222,19 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$cg_audience_segment_bulk_update_input_v1 = new \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkUpdateInputV1(); // \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkUpdateInputV1 | Segment Update request
+$cg_audience_segment_bulk_update_input_v1 = new \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkUpdateInputV1(); // \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkUpdateInputV1 | Segment Update request
 
 try {
     $result = $apiInstance->bulkUpdateAudienceSegments($cg_audience_segment_bulk_update_input_v1);
@@ -248,11 +248,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **cg_audience_segment_bulk_update_input_v1** | [**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentBulkUpdateInputV1**](../Model/CgAudienceSegmentBulkUpdateInputV1.md)| Segment Update request | |
+| **cg_audience_segment_bulk_update_input_v1** | [**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentBulkUpdateInputV1**](../Model/CgAudienceSegmentBulkUpdateInputV1.md)| Segment Update request | |
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1ListResponse**](../Model/CgAudienceSegmentEntityV1ListResponse.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1ListResponse**](../Model/CgAudienceSegmentEntityV1ListResponse.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ try {
 clearContactListByAudienceSegment($audience_segment_id)
 ```
 
-
+/2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
 
 Delete all identifiers from a Commerce Grid audience segment of type Contact List.
 
@@ -285,13 +285,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -332,10 +332,10 @@ void (empty response body)
 ## `getAudienceSegmentContactListStatistics()`
 
 ```php
-getAudienceSegmentContactListStatistics($audience_segment_id): \criteo\api\commercegrid\v2026_01\Model\CgContactListStatisticsEntityV1Response
+getAudienceSegmentContactListStatistics($audience_segment_id): \criteo\api\commercegrid\v2026_07\Model\CgContactListStatisticsEntityV1Response
 ```
 
-
+/2026-07/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
 
 Returns the statistics of a contact list segment.
 
@@ -347,13 +347,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -377,7 +377,7 @@ try {
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CgContactListStatisticsEntityV1Response**](../Model/CgContactListStatisticsEntityV1Response.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CgContactListStatisticsEntityV1Response**](../Model/CgContactListStatisticsEntityV1Response.md)
 
 ### Authorization
 
@@ -395,10 +395,10 @@ try {
 ## `searchAudienceSegments()`
 
 ```php
-searchAudienceSegments($cg_audience_segment_search_input_v1, $limit, $offset): \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse
+searchAudienceSegments($cg_audience_segment_search_input_v1, $limit, $offset): \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse
 ```
 
-
+/2026-07/commerce-grid/audience-segments/search
 
 Returns a list of segments that match the provided filters. If present, the filters are AND'ed together when applied.
 
@@ -410,19 +410,19 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_01\Api\SegmentApi(
+$apiInstance = new criteo\api\commercegrid\v2026_07\Api\SegmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$cg_audience_segment_search_input_v1 = new \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentSearchInputV1(); // \criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentSearchInputV1 | 
+$cg_audience_segment_search_input_v1 = new \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentSearchInputV1(); // \criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentSearchInputV1 | 
 $limit = 50; // int | The number of elements to be returned. The default is 50 and the maximum is 100.
 $offset = 0; // int | The (zero-based) offset into the collection. The default is 0.
 
@@ -438,13 +438,13 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **cg_audience_segment_search_input_v1** | [**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentSearchInputV1**](../Model/CgAudienceSegmentSearchInputV1.md)|  | |
+| **cg_audience_segment_search_input_v1** | [**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentSearchInputV1**](../Model/CgAudienceSegmentSearchInputV1.md)|  | |
 | **limit** | **int**| The number of elements to be returned. The default is 50 and the maximum is 100. | [optional] [default to 50] |
 | **offset** | **int**| The (zero-based) offset into the collection. The default is 0. | [optional] [default to 0] |
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_01\Model\CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse**](../Model/CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse.md)
+[**\criteo\api\commercegrid\v2026_07\Model\CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse**](../Model/CgAudienceSegmentEntityV1CgAudienceSegmentSearchMetadataV1ListResponse.md)
 
 ### Authorization
 
