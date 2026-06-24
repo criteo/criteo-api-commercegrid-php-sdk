@@ -36,9 +36,9 @@
         "jchook/phpunit-assert-throws": "^1.0"
     },
     "autoload": {
-        "psr-4": { "criteo\\api\\commercegrid\\preview\\" : "lib/" }
+        "psr-4": { "criteo\\api\\commercegrid\\experimental\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "criteo\\api\\commercegrid\\preview\\" : "test/" }
+        "psr-4": { "criteo\\api\\commercegrid\\experimental\\" : "test/" }
     }
 }

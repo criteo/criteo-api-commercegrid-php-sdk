@@ -68,14 +68,14 @@ All URIs are relative to *https://api.criteo.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*GatewayApi* | [**getCurrentApplication**](docs/Api/GatewayApi.md#getcurrentapplication) | **GET** /preview/commerce-grid/me | /preview/commerce-grid/me
-*SegmentApi* | [**addRemoveContactListByAudienceSegment**](docs/Api/SegmentApi.md#addremovecontactlistbyaudiencesegment) | **POST** /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove | /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
-*SegmentApi* | [**bulkCreateAudienceSegments**](docs/Api/SegmentApi.md#bulkcreateaudiencesegments) | **POST** /preview/commerce-grid/audience-segments/create | /preview/commerce-grid/audience-segments/create
-*SegmentApi* | [**bulkDeleteAudienceSegments**](docs/Api/SegmentApi.md#bulkdeleteaudiencesegments) | **POST** /preview/commerce-grid/audience-segments/delete | /preview/commerce-grid/audience-segments/delete
-*SegmentApi* | [**bulkUpdateAudienceSegments**](docs/Api/SegmentApi.md#bulkupdateaudiencesegments) | **PATCH** /preview/commerce-grid/audience-segments | /preview/commerce-grid/audience-segments
-*SegmentApi* | [**clearContactListByAudienceSegment**](docs/Api/SegmentApi.md#clearcontactlistbyaudiencesegment) | **POST** /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear | /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
-*SegmentApi* | [**getAudienceSegmentContactListStatistics**](docs/Api/SegmentApi.md#getaudiencesegmentcontactliststatistics) | **GET** /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics | /preview/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
-*SegmentApi* | [**searchAudienceSegments**](docs/Api/SegmentApi.md#searchaudiencesegments) | **POST** /preview/commerce-grid/audience-segments/search | /preview/commerce-grid/audience-segments/search
+*GatewayApi* | [**getCurrentApplication**](docs/Api/GatewayApi.md#getcurrentapplication) | **GET** /experimental/commerce-grid/me | /experimental/commerce-grid/me
+*SegmentApi* | [**addRemoveContactListByAudienceSegment**](docs/Api/SegmentApi.md#addremovecontactlistbyaudiencesegment) | **POST** /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove | /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/add-remove
+*SegmentApi* | [**bulkCreateAudienceSegments**](docs/Api/SegmentApi.md#bulkcreateaudiencesegments) | **POST** /experimental/commerce-grid/audience-segments/create | /experimental/commerce-grid/audience-segments/create
+*SegmentApi* | [**bulkDeleteAudienceSegments**](docs/Api/SegmentApi.md#bulkdeleteaudiencesegments) | **POST** /experimental/commerce-grid/audience-segments/delete | /experimental/commerce-grid/audience-segments/delete
+*SegmentApi* | [**bulkUpdateAudienceSegments**](docs/Api/SegmentApi.md#bulkupdateaudiencesegments) | **PATCH** /experimental/commerce-grid/audience-segments | /experimental/commerce-grid/audience-segments
+*SegmentApi* | [**clearContactListByAudienceSegment**](docs/Api/SegmentApi.md#clearcontactlistbyaudiencesegment) | **POST** /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear | /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/clear
+*SegmentApi* | [**getAudienceSegmentContactListStatistics**](docs/Api/SegmentApi.md#getaudiencesegmentcontactliststatistics) | **GET** /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics | /experimental/commerce-grid/audience-segments/{audience-segment-id}/contact-list/statistics
+*SegmentApi* | [**searchAudienceSegments**](docs/Api/SegmentApi.md#searchaudiencesegments) | **POST** /experimental/commerce-grid/audience-segments/search | /experimental/commerce-grid/audience-segments/search
 
 
 ## Documentation For Models

@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**attributes** | [**\criteo\api\commercegrid\preview\Model\CgAudienceSegmentUpdateEntityV1**](CgAudienceSegmentUpdateEntityV1.md) |  | [optional]
+**attributes** | [**\criteo\api\commercegrid\experimental\Model\CgAudienceSegmentUpdateEntityV1**](CgAudienceSegmentUpdateEntityV1.md) |  | [optional]
 **id** | **string** | Id of the entity | [optional]
 **type** | **string** |  | [optional]
 

@@ -1,9 +1,9 @@
 <?php
 
-use criteo\api\commercegrid\preview\Configuration;
-use criteo\api\commercegrid\preview\OAuthClient;
-use criteo\api\commercegrid\preview\ObjectSerializer;
-use criteo\api\commercegrid\preview\ClientCredentialsClient;
+use criteo\api\commercegrid\experimental\Configuration;
+use criteo\api\commercegrid\experimental\OAuthClient;
+use criteo\api\commercegrid\experimental\ObjectSerializer;
+use criteo\api\commercegrid\experimental\ClientCredentialsClient;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\Uri;

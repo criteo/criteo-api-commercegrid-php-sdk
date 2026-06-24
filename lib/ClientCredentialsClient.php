@@ -1,8 +1,8 @@
 <?php
-namespace criteo\api\commercegrid\preview;
+namespace criteo\api\commercegrid\experimental;
 
-use criteo\api\commercegrid\preview\ApiException;
-use criteo\api\commercegrid\preview\ClientCredentialsClient\Token;
+use criteo\api\commercegrid\experimental\ApiException;
+use criteo\api\commercegrid\experimental\ClientCredentialsClient\Token;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;

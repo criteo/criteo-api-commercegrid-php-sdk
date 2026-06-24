@@ -1,19 +1,19 @@
-# criteo\api\commercegrid\preview\GatewayApi
+# criteo\api\commercegrid\experimental\GatewayApi
 
 All URIs are relative to https://api.criteo.com, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**getCurrentApplication()**](GatewayApi.md#getCurrentApplication) | **GET** /preview/commerce-grid/me | /preview/commerce-grid/me |
+| [**getCurrentApplication()**](GatewayApi.md#getCurrentApplication) | **GET** /experimental/commerce-grid/me | /experimental/commerce-grid/me |
 
 
 ## `getCurrentApplication()`
 
 ```php
-getCurrentApplication(): \criteo\api\commercegrid\preview\Model\ApplicationSummaryModelResponse
+getCurrentApplication(): \criteo\api\commercegrid\experimental\Model\ApplicationSummaryModelResponse
 ```
 
-/preview/commerce-grid/me
+/experimental/commerce-grid/me
 
 Get information about the currently logged application
 
@@ -25,13 +25,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\preview\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\experimental\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\preview\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\experimental\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\preview\Api\GatewayApi(
+$apiInstance = new criteo\api\commercegrid\experimental\Api\GatewayApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -52,7 +52,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\criteo\api\commercegrid\preview\Model\ApplicationSummaryModelResponse**](../Model/ApplicationSummaryModelResponse.md)
+[**\criteo\api\commercegrid\experimental\Model\ApplicationSummaryModelResponse**](../Model/ApplicationSummaryModelResponse.md)
 
 ### Authorization
 

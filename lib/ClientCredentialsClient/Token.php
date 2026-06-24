@@ -1,5 +1,5 @@
 <?php
-namespace criteo\api\commercegrid\preview\ClientCredentialsClient;
+namespace criteo\api\commercegrid\experimental\ClientCredentialsClient;
 
 use DateTime;
 
