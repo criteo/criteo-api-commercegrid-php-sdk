@@ -1,10 +1,10 @@
 <?php
-namespace criteo\api\commercegrid\v2026_07;
+namespace criteo\api\commercegrid\v2027_01;
 
-use criteo\api\commercegrid\v2026_07\ApiException;
-use criteo\api\commercegrid\v2026_07\Configuration;
-use criteo\api\commercegrid\v2026_07\ObjectSerializer;
-use criteo\api\commercegrid\v2026_07\ClientCredentialsClient\Token;
+use criteo\api\commercegrid\v2027_01\ApiException;
+use criteo\api\commercegrid\v2027_01\Configuration;
+use criteo\api\commercegrid\v2027_01\ObjectSerializer;
+use criteo\api\commercegrid\v2027_01\ClientCredentialsClient\Token;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;

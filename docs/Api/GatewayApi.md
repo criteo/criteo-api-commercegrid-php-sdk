@@ -1,19 +1,19 @@
-# criteo\api\commercegrid\v2026_07\GatewayApi
+# criteo\api\commercegrid\v2027_01\GatewayApi
 
 All URIs are relative to https://api.criteo.com, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**getCurrentApplication()**](GatewayApi.md#getCurrentApplication) | **GET** /2026-07/commerce-grid/me | /2026-07/commerce-grid/me |
+| [**getCurrentApplication()**](GatewayApi.md#getCurrentApplication) | **GET** /2027-01/commerce-grid/me | /2027-01/commerce-grid/me |
 
 
 ## `getCurrentApplication()`
 
 ```php
-getCurrentApplication(): \criteo\api\commercegrid\v2026_07\Model\ApplicationSummaryModelResponse
+getCurrentApplication(): \criteo\api\commercegrid\v2027_01\Model\ApplicationSummaryModelResponse
 ```
 
-/2026-07/commerce-grid/me
+/2027-01/commerce-grid/me
 
 Get information about the currently logged application
 
@@ -25,13 +25,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2027_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 // Configure OAuth2 access token for authorization: oauth
-$config = criteo\api\commercegrid\v2026_07\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = criteo\api\commercegrid\v2027_01\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new criteo\api\commercegrid\v2026_07\Api\GatewayApi(
+$apiInstance = new criteo\api\commercegrid\v2027_01\Api\GatewayApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -52,7 +52,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\criteo\api\commercegrid\v2026_07\Model\ApplicationSummaryModelResponse**](../Model/ApplicationSummaryModelResponse.md)
+[**\criteo\api\commercegrid\v2027_01\Model\ApplicationSummaryModelResponse**](../Model/ApplicationSummaryModelResponse.md)
 
 ### Authorization
 
